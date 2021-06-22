@@ -1,0 +1,33 @@
+{
+  "name": "nativekeepawake",
+  "widgetName": "NativeKeepAwake",
+  "version": "1.0.0",
+  "description": "Native keep awake widget",
+  "copyright": "ITvisors 2021",
+  "author": "Marcel Groeneweg",
+  "engines": {
+    "node": ">=12"
+  },
+  "config": {
+    "projectPath": "./test/"
+  },
+  "packagePath": "itvisors",
+  "scripts": {
+    "start": "pluggable-widgets-tools start:native",
+    "build": "pluggable-widgets-tools build:native",
+    "lint": "pluggable-widgets-tools lint",
+    "lint:fix": "pluggable-widgets-tools lint:fix",
+    "prerelease": "npm run lint",
+    "release": "pluggable-widgets-tools release:native"
+  },
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Marcel Groeneweg/nativekeepawake/issues"
+  },
+  "devDependencies": {
+    "@mendix/pluggable-widgets-tools": "^8.18.0"
+  },
+  "dependencies": {
+    "@sayem314/react-native-keep-awake": "^1.0.4"
+  }
+}

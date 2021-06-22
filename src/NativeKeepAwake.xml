@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget id="itvisors.nativekeepawake.NativeKeepAwake" pluginWidget="true" needsEntityContext="true" offlineCapable="true"
+        supportedPlatform="Native"
+        xmlns="http://www.mendix.com/widget/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.mendix.com/widget/1.0/ ../node_modules/mendix/custom_widget.xsd">
+    <name>Native Keep Awake</name>
+    <description>Native keep awake widget</description>
+    <icon/>
+    <properties>
+        <propertyGroup caption="General">
+            <property key="notUsed" type="string" required="false">
+                <caption>Not used</caption>
+                <description>Widget has no properties</description>
+            </property>
+        </propertyGroup>
+    </properties>
+</widget>
