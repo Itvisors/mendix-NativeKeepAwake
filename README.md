@@ -1,24 +1,11 @@
 ## NativeKeepAwake
-[Native keep awake widget]
+Keep device awake while the app is visible, running on the foreground
 
 ## Features
-[feature highlights]
+Prevents device from falling asleep
 
 ## Usage
-[step by step instructions]
+Drop the widget on the page that should not close.
 
-## Demo project
-[link to sandbox]
+Add dependency `@sayem314/react-native-keep-awake` to your native build. This is a fork which is maintained, while the original `react-native-keep-awake` is no longer maintained.
 
-## Issues, suggestions and feature requests
-[link to GitHub issues]
-
-## Development and contribution
-
-1. Install NPM package dependencies by using: `npm install`. If you use NPM v7.x.x, which can be checked by executing `npm -v`, execute: `npm install --legacy-peer-deps`.
-1. Run `npm start` to watch for code changes. On every change:
-    - the widget will be bundled;
-    - the bundle will be included in a `dist` folder in the root directory of the project;
-    - the bundle will be included in the `deployment` and `widgets` folder of the Mendix test project.
-
-[specify contribution]
