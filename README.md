@@ -14,11 +14,8 @@ With Mendix 9, native dependencies are managed automatically when you build the 
 
 It uses dependency `@sayem314/react-native-keep-awake` to your native build. This is a fork which is maintained, while the original `react-native-keep-awake` is no longer maintained.
 
-## Usage
-Drop the widget on the page that should not close. No configuration required. Note that the device will not close even if other pages are opened from that page. Device sleep/lock behaviour will revert to the device settings as soon as the page with the widget on it is closed. (Or the app is killed or backgrounded of course)
+## Installation
+Drop the widget on the page that should not close. 
 
-## Issues, suggestions and feature requests
-[link to GitHub issues](https://github.com/Itvisors/mendix-NativeKeepAwake/issues)
-
-
-
+## Configuration
+No configuration required. Note that the device will not close even if other pages are opened from that page. Device sleep/lock behaviour will revert to the device settings as soon as the page with the widget on it is closed. (Or the app is killed or backgrounded of course)
