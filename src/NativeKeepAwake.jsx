@@ -1,8 +1,6 @@
-import { Component, createElement } from "react";
 import KeepAwake from "@sayem314/react-native-keep-awake";
+import { createElement } from "react";
 
-export class NativeKeepAwake extends Component {
-    render() {
-        return <KeepAwake></KeepAwake>;
-    }
+export function NativeKeepAwake() {
+    return <KeepAwake />;
 }
